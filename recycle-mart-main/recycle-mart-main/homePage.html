@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./misc/recycleMart_temp_logo.png"/>
+    <link rel="stylesheet" href="./css/main.css">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!--lato font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Recyclemart</title>
+</head>
+<body>
+
+
+        <nav>
+        <div id="logo-hp">
+            <img src="./misc/Group 2.png" alt="">
+        </div>
+        
+        <ul id="navigation">
+            <li class="nav-msc">SHOP</li>
+            <li class="nav-msc"><button class="nav-btn" id="open-login">LOGIN</button></li>
+            <li class="nav-msc"><button class="nav-btn" id="open-register">REGISTER</button></li>
+            <input type="text" name="" id="" class="search-text">
+
+            <button class="cart-nav"><i class="fa-solid fa-cart-shopping"></i></button>
+
+        </ul>
+        
+    </nav>
+
+    
+
+     <div id="p1">
+        <div id="intro-home">
+            <p id="title-hp">
+                <img src="./misc/hp-title-text/Group 3.png" alt="" height="200px">
+            </p>
+
+            <p id="contents-hp">
+                <img src="./misc/hp-title-text/content.png" alt="" height="300px">
+            </p>
+        </div>
+
+        <div class="pic-hp" id="pic1-hp">
+            <img src="./misc/hp-pics/pic1-hp.png" width="540px" height="300px">
+        </div>
+
+        <div class="pic-hp" id="pic2-hp">
+            <img src="./misc/hp-pics/pic2-hp.png" width="540px" height="300px">
+        </div>
+    </div>
+    <div id="p2">
+        <div id="socials-hp">
+            <img src="./misc/hp-pics/learn-more.png" alt="" height="50px">
+            <img src="./misc/hp-pics/contact-us.png" alt="" height="50px">
+        </div>
+    </div>
+
+   
+
+
+
+    <!--Login Modal-->
+    <div class="overlay" id="overlay"></div>
+    <div class="login-container" id="login-container">
+        <form class="login-form">
+
+            <span class="close-btn-login"><button class="close-login" id="close-login"><i class="fa-solid fa-x"></i></button></i></span>
+            <span class="user-profile-login"><i class="fa-solid fa-user"></i></span>
+
+            <label for="login-username">Username</label>
+            <input type="text" name="login-username" id="login-username">
+
+            <label for="login-password">Password</label>
+            <input type="login-password" name="login-password" id="login-password">
+            <span class="login-btn"><button class="btn-login" id="close-login">LOGIN</button></span>  
+
+        </form>
+    </div>
+
+    <!--Register Modal-->
+    <div class="register-container" id="register-container">
+
+        <div class="close-btn-register"><button class="btn-close-register" id="close-register"><i class="fa-solid fa-x"></i></button></i></div>
+        <div class="user-profile-register"><i class="fa-solid fa-user"></i></div>
+        <form class="register-form">
+
+           
+            
+
+            <label for="register-username">Username</label>
+            <input type="text" name="register-username" id="register-username">
+
+            <label for="contact-number">Contact Number</label>
+            <input type="text" name="confirm-password" id="contact-number">
+
+            <label for="register-password">Password</label>
+            <input type="password" name="register-password" id="register-password">
+
+            <label for="current-address">Current Address</label>
+            <input type="text" name="current-address" id="current-address">
+
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" name="confirm-password" id="confirm-password">
+
+            <label for="email-address">Email Address</label>
+            <input type="text" name="email-address" id="email-address">
+
+               
+        </form>
+        <div class="register-btn"><button class="btn-register" id="close-register">REGISTER</button></div>      
+
+    </div>
+    
+</body>
+<script src="/recycle-mart-main/js/homePage.js"></script>
+</html>

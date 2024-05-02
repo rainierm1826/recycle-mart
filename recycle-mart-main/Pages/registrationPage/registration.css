@@ -1,0 +1,66 @@
+.register-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "lato";
+    padding: 30px;
+}
+  
+  .form-control {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+}
+  
+  .register-btn{
+    text-align: center;
+    margin: 20px;
+}
+  
+  
+  .user-profile-register {
+    font-size: 60px;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  .btn-register {
+    font-family: "lato";
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+  }
+  .btn-register:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .register-btn {
+    text-align: center;
+    margin-bottom: 20px;
+  
+  }
+  
+  .btn-close-register {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 50%;
+  
+  }
+  
+  .btn-close-register:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-container h2 {
+    text-align: center;
+  }
